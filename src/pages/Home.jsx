@@ -14,7 +14,7 @@ import imageSlider from "../assets/Home Page-Final Direction 2 (1).png"
 import imageSlider2 from "../assets/Home Page-Final Direction 3.png"
 import CategoriesSliderContent from '../components/NavigationCategories/CategoriesSliderContent'
 
-import GuidesAndArticles from '../components/NavigationCategories/finalsecSliderHome'
+import GuidesAndArticles from '../components/NavigationCategories/FinalSecSliderHome'
 const Home = () => {
   const someSlides = [
     { id: 1, image: imageSlider },
