@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import Logoo from "../../assets/logo.png";
 import { Link } from 'react-router-dom';
-import Logo from "../../assets/Link.png";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <nav className="flex justify-between bg-gray-900 w-full text-white">
                     <div className="flex justify-between items-center py-6 w-full paddingX">
                         <Link className="font-heading font-bold text-3xl" to="/">
-                            <img src={Logo} alt="Logo" />
+                            <img src={Logoo} alt="Logo" />
                         </Link>
 
                         {/* Links for lg and larger */}
