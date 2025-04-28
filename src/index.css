@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+
+} 
+ 
+
+
+
+@import "tailwindcss";
+
+/* index.css أو App.css */
+
+@media (min-width: 260px) and (max-width: 400px) {
+  .custom-height {
+    height: 150px !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 642px) {
+  .custom-height {
+    height: 220px !important;
+  }
+}
+.mySwiper .swiper-pagination-bullet {
+  background: rgba(255, 86, 29 , 0.4);
+  /* لون النقط العادية */
+  opacity: 1;
+  /* عشان تكون أوضح */
+}
+.mySwiper .swiper-pagination-bullet-active {
+  background: #FF561D;
+  /* لون النقطة اللي نشطة */
+}
+ @layer components {
+  .paddingX {
+    @apply px-5 md:px-26;
+  }
+  .textHeight{
+ @apply  leading-[140%];
+  }
+  .paddingY{
+    @apply  py-[20px] md:py-[40px];
+  }
+  .second-color{
+    @apply text-[#000000] 
+  }
+  .main-color{
+    @apply text-[#EC221F]
+  }
+}
