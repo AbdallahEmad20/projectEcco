@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
-import imageFooter1 from "../../assets/Payment_footer-removebg-preview-e1740799581299.png.png"
+import imageFooter1 from "../../assets/Payment_footer-removebg-preview-e1740799581299.png"
 import LogoFooter from "../../assets/771b8f6b645d7fe53ce0fbaf8375eedc456a2018.png"
 import symbolIcon from "../../assets/wpf_sent.png"
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer className="bg-black px-4 md:px-20 py-10 md:py-14 text-white">
+        <footer className="bg-black text-white paddingY paddingX">
 
             {/* Main Grid */}
             <div className="gap-8 grid grid-cols-1 md:grid-cols-4">
@@ -53,8 +53,8 @@ const Footer = () => {
 
                 {/* Logo + Info + Social (صف منفصل) */}
                 <div className="flex flex-col items-center space-y-8 col-span-full md:col-span-1 mx-auto">
-                    <div className="flex items-center space-x-2">
-                        <img src={LogoFooter} alt="Logo" className="h-8" />
+                    <div className="w-full">
+                        <img src={LogoFooter} alt="Logo" className="h-10" />
                     </div>
                     <div className="text-[#BDBDBD] text-sm md:text-left text-center leading-6">
                         Customer Service Hours<br />
@@ -75,7 +75,7 @@ const Footer = () => {
 
                 {/* Payment Methods */}
                 <div className="flex-shrink-0">
-                    <img src={imageFooter1} alt="Payment Methods" className="h-6" />
+                    <img src={imageFooter1} alt="Payment Methods" className="h-8" />
                 </div>
 
                 {/* Subscribe Form */}
