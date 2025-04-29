@@ -101,7 +101,7 @@ const Footer = () => {
             <div className="my-8 border-gray-700 border-t"></div>
 
             {/* Footer Bottom Row */}
-            <Link className="block text-[#FFFFFF] text-[14px] text-center cursor-pointer">
+            <Link to="https://pikyhost.com/" className="block text-[#FFFFFF] text-[14px] text-center cursor-pointer">
                 Copyright © 2025 O2Mart. All Rights Reserved
             </Link>
         </footer>
