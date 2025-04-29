@@ -22,14 +22,22 @@ body {
     height: 220px !important;
   }
 }
+
+.mySwiper{
+
+  @apply !pb-10
+}
+
 .mySwiper .swiper-pagination-bullet {
   background: rgba(255, 86, 29 , 0.4);
   /* لون النقط العادية */
   opacity: 1;
+
   /* عشان تكون أوضح */
 }
 .mySwiper .swiper-pagination-bullet-active {
-  background: #FF561D;
+    @apply bg-[#FF561D] rounded-lg w-12 h-2 transition-all duration-500 ease-in-out;
+  
   /* لون النقطة اللي نشطة */
 }
  @layer components {

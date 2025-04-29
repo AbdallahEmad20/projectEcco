@@ -40,7 +40,7 @@ export default function GuidesAndArticles() {
                 <p className="mt-5 !font-normal text-[#9A9A9A] text-[14px] leading-[22px]">
                     Articles and Guides that are written with the help of mechanics to ensure you have all the knowledge you need to make the correct purchase here at Mabe.
                 </p>
-                <button className="!mt-[20px] px-6 py-2 border-2 border-black rounded font-black text-black transition cursor-pointer">
+                <button className="hover:bg-black !mt-[20px] px-10 py-4 border-2 border-black rounded !font-bold text-black hover:!text-white transition cursor-pointer">
                     Read more
                 </button>
             </div>
@@ -68,7 +68,7 @@ export default function GuidesAndArticles() {
                 >
                     {articles.map((article, index) => (
                         <SwiperSlide key={index}>
-                            <div className="bg-white shadow-md rounded overflow-hidden">
+                            <div className="bg-white rounded overflow-hidden">
                                 <img
                                     src={article.image}
                                     alt={article.title}
